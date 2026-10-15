@@ -1,0 +1,29 @@
+license="${mod_license}"
+issueTrackerURL="https://github.com/IAFEnvoy/Uranus/issues"
+
+[[mods]]
+modId="${mod_id}"
+version="${mod_version}"
+displayName="${mod_name}"
+authors="Ashtonite365 (port), IAFEnvoy (original)"
+description='''
+UNOFFICIAL BETA port of Uranus by IAFEnvoy (a library containing an animation engine, object helper and so on; partly based on LLibrary and Citadel) to Minecraft 26.3 / NeoForge 26.3.0.76. Not affiliated with IAFEnvoy. LGPL-3.0; see LICENSE_uranus and NOTICE_uranus.
+'''
+logoFile="logo.png"
+
+[[dependencies.${mod_id}]]
+modId="neoforge"
+type="required"
+versionRange="[${neo_version},)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.${mod_id}]]
+modId="minecraft"
+type="required"
+versionRange="${minecraft_version_range}"
+ordering="NONE"
+side="BOTH"
+
+[[mixins]]
+config="uranus.mixins.json"

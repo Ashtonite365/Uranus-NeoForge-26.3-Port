@@ -1,0 +1,9 @@
+Uranus NeoForge 26.3 Port (mod id uranus_port263), version 3.0-alpha.1-port.1-beta. UNOFFICIAL BETA.
+Based on Uranus 3.0-alpha.1 by IAFEnvoy: https://github.com/IAFEnvoy/Uranus (upstream commit d203bc9).
+Licence: GNU Lesser General Public License v3.0 or later (see LICENSE_uranus, which includes the GPL-3.0 text).
+Not affiliated with or endorsed by IAFEnvoy.
+
+Modified by Ashtonite365, 2026-10 (port completed 2026-10-13):
+- Source adapted to the Minecraft 26.3 / NeoForge 26.3.0.76 APIs.
+- FML mod id changed to uranus_port263. The content namespace remains "uranus".
+Corresponding source: see CURSEFORGE-PAGE.md ("Source").
